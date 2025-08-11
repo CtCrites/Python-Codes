@@ -1,0 +1,12 @@
+This is a basic webscraper that will obtain donation history and vitals records from CSL Plasma's website. 
+This data will then be saved in a csv file. The CSL Plasma website only reports the 20 most recent
+donations. For this reason, the program will update the csv record if one already exists so as to
+build a larger dataset over time.
+
+The data collected is as follows:
+  -Weight
+  -Heart Rate
+  -Blood Pressure
+  -Temperature
+
+The data is then reported in the form of a dashboard png with some stats.
